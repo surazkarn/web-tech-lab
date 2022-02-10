@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2 Qno.2</title>
+   <style>
+       .control-style:after{
+           content:"*";
+           color:red;
+       }
+   </style>
+</head>
+<body>
+   <form>
+       <fieldset>
+           <legend><h3>Create User ID and Password</h3></legend>
+           <label class="control-style" for="userid"> User ID: </label>
+           <input type="text" id="userid" name="UserId" value="" placeholder="Your Email ID" required> <br><br>
+           <label class="control-style" for="pass"> Password:</label>
+           <input type="password" id="pass" name="Pass" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+            <br><small>Format: combination of numericals,alphabet and special character; minimum 8 and maximum 16 character</small> <br><br>
+            <label class="control-style" for="cpass">Confirm Password:</label>
+            <input type="password" id="cpass" name="CPass" value="" required><br><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend><h3>PERSONAL INFORMATION</h3></legend>
+            <img src="suraz.jpg" width="200" height="200" align="right">
+           
+            First Name: <label class="control-style" for="fname" > <input type="text" required></label><br><br>
+                <label for="lname">Last name: <input type="text"></label><br><br>
+                <label for="gender">Gender: <input type="radio" name="gender"> Male  <input type="radio" name="gender">Female</label><br><br>
+    
+                <label for="birthday">Birthday:  <input type="date" required></label><br><br>
+               <label for="country">Country
+                <select name="country" id="Country">
+                    <option value="">--select country--</option>
+                    <option value="">America</option>
+                    <option value="">Austria</option>
+                    <option value="">Brazil</option>
+                    <option value="">Canada</option>
+                    <option value="">Denmark</option>
+                    <option value="">China</option>
+                    <option value="">India</option>
+                    <option value="">Bangladesh</option>
+                    <option value="">Nepal</option>
+                    <option value="">UAE</option>
+                    <option value="">Other</option>
+                    
+                </select></label>
+                <br><br>
+                <label for="email">Email:   <input type="email" required></label>
+                <br><br>
+                <label for="address">Address: <textarea name="" id="" cols="30" rows="10"></textarea></label>
+            </div>
+           
+            </fieldset>
+    <br><hr><br>
+            <fieldset>
+                <legend>Education Details</legend>
+                <label for="degree">Degree
+                <select name="degree" id="">Degree
+                    <option value="">B.E.</option>
+                    <option value="">BTech</option>
+                    <option value="">Bsc</option>
+                    <option value="">Bcom</option>
+                </select></label>
+                <br><br>
+                <label for="course">Certified Course any: <textarea name="" id="" cols="30" rows="10"></textarea></label>
+            </fieldset>
+            <br><hr><br>
+            <fieldset>
+                <legend>Word Experience</legend>
+                <label for="knowledge">Knowledge in : <input type="checkbox">HTML <input type="checkbox" name="" id="">.NET <input type="checkbox">JAVA <input type="checkbox">PHP</label>
+        </fieldset>
+        <br><hr><br>
+    </div>
+
+    <button type="submit">Submit</button>
+   </form> 
+</body>
+</html>
