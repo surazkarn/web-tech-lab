@@ -1,2 +1,2 @@
-# My-Core-Java
-My Core Java Repo
+# Core-Java
+
