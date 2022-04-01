@@ -1,0 +1,33 @@
+Lab 6: Experiments List
+
+1. Write a program in java to input and display the details of n number of students having
+roll, name and cgpa as data members. Also display the name of the student having lowest
+cgpa.
+2. Illustrate the execution of constructors in multi-level inheritance with three Java classes –
+plate(int length, int width), box(length, width, height), wood box (length, width, height,
+thick).
+Hints:
+Class plate{
+Int length, width;
+Plate(int a, int b){
+Length= a;
+Width=b;
+}
+}
+Class box extends plate{
+Int length, width, hight;
+box(int a, int b, int c){
+super(a,b);
+hight=c;
+}
+}
+3. Write a program in java to define a class Shape which has data member „area‟ and a
+member function showArea(). Derive two classes Circle and Rectangle from Shape class. Add
+appropriate data members and member functions to calculate and display the area of Circle
+and Rectangle.
+4. Write a program to create an Account class containing acc_no, balance as data members
+and disp() to display the details. Inherit it in Person class with all mentioned data members
+and functions. Person class also has name and aadhar_no as extra data members of its own.
+Override disp() function. Create 3 persons‟ details.
+5. Write a program in java using inheritance to show how to call the base class
+parameterized constructors from the derived class using super.
