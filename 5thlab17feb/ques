@@ -1,0 +1,20 @@
+Lab 5: Experiments List
+
+1. Write a program to overload subtract method with various parameters in a class in Java.
+Hints:
+int sub(int a, int b){ result = a - b}
+float sub(float a, float b){ result = a - b}
+int sub( int b){ int a = 10; result = a - b}
+
+2. Write a program in Java to define a class Rectangle having data member: length and
+breadth; to calculate the area and perimeter of the rectangle. Use member functions to
+read, calculate and display.
+
+3. Write a program in Java to define a class Number with appropriate data members and
+member functions to input n number of integers and swap the biggest and smallest
+elements. Use member functions read(), swap() and display().
+
+4. Find the no. of occurrence of each element in an user entered array of numbers.
+
+5. Find sum of each diagonal (left &amp; right) elements separately of a user entered 3 X 3
+matrixes in Java.
