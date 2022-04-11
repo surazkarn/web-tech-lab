@@ -1,0 +1,36 @@
+1. Write a Java program to generate an nullpointerexception and handle it using catch
+statement.
+
+2. Write a Java program to illustrate try..catch..finally block. Extend this program to justify
+that a subclass exception must appear before super-class exception.
+
+Hints: class A{
+Try{
+…………
+}
+catch(Exception 1){
+……………..
+}
+catch(Exception 2){
+……………..
+}
+catch(Exception 3){
+……………..
+}
+finally{
+……………..
+}
+}
+3. Write a Java program to create user defined exceptions called NegativeNumberException.
+Create a Ja9898va class which has a method called ProcessInput(). This method checks the
+number entered by the user. If the entered number is negative then throw an user defined
+exception called NegativeNumberException, otherwise it displays the double value of the
+entered number.
+4. Write a JAVA program which has (i) A Class called Account that creates account with
+500Rs minimum balance, a deposit() method to deposit amount, a withdraw() method to
+withdraw amount and also throws LessBalanceException if an account holder tries to
+withdraw money which makes the balance becomes less than 500Rs. (ii) A Class called
+LessBalanceException which returns the statement that says withdraws amount (Rs) is not
+valid. (iii) A Class which creates 2 accounts, both account deposit money and one account
+tries to withdraw more money which generates a LessBalanceException take appropriate
+action for the same.
